@@ -1,0 +1,57 @@
+.Nabar{
+    width: 100%;
+    background-color: transparent;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+    /* border: 1px solid#f1f1f1;
+    padding: top(20px) right(20px) bottom(20px) left(20px); or 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px;*/
+.Maincontainer{
+    width: 91%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navcontainer1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 78px;
+    /*border: 1px solid red;*/
+}
+.Navlogo {
+    width: 100px;
+    height: 100px;
+}
+    
+
+.Navlink{
+    font-size: 18px;
+    width: 80%;
+    height: auto;
+    /*margin: auto auto;*/
+    /*border: 1px solid#cfcfcf;*/
+    display: flex;
+    justify-content: space-between;
+    /*background:#a7a3a3;*/
+
+
+}
+.Nabar li{
+    color:white;
+    list-style-type:none/* disc*/;
+}
+
+.Navcontainer2{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+

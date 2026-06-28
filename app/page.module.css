@@ -1,0 +1,90 @@
+.page {
+  --background: #fafafa;
+  --foreground: #fff;
+
+  --text-primary: #000;
+  --text-secondary: #666;
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: var(--font-geist-sans);
+  background-color: var(--background);
+}
+.header{
+  width: 100vw;
+  height: 100vh;
+  color: 1px solid red ;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background:#00000063;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  letter-spacing: -1px;
+  line-height: 88px;
+}
+
+.Nabar{
+  /*border: solid 1px green;
+  is for the headings-Home,department,welcome centre,elibary,Feedback,Events*/
+  width: 100%;
+  position: absolute;
+  top: 3%;
+}
+
+.header_banner{/*is for the background of the website..*/
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.bannerTxt{/*is For the text in the background: Welcome to Resurrection centre lp33- DE slink*/
+  position: absolute;
+  width: 70%;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.bannerTxt h1{/*is for the color of the text in the Background:Welcome to Resurrection centre LP33- DE slink*/
+  font-size: 64px;
+  text-align: center;
+  font-weight:700 ;
+  color: #ebebeb;
+}
+
+.otherprogramsDIV{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+}
+
+.otherprograms h2{
+  font-size: 45px;
+  color: #3A4357;
+  height: fit-content;
+}
+
+
+
+
+
