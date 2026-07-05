@@ -10,6 +10,7 @@
   --button-secondary-border: #ebebeb;
 
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   justify-content: center;
   font-family: var(--font-geist-sans);
@@ -69,19 +70,18 @@
   color: #ebebeb;
 }
 
-.otherprogramsDIV{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 350px;
-    align-items: center;
-}
-
-.otherprograms h2{
-  font-size: 45px;
+.cultivation.mps{
+  font-size: 100px;
   color: #3A4357;
   height: fit-content;
+}
+
+.navbtn{
+  width: 10%;
+  height: 40%;
+  color: red;
+  
+
 }
 
 
