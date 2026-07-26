@@ -70,19 +70,39 @@
   color: #ebebeb;
 }
 
-.cultivation.mps{
-  font-size: 100px;
-  color: #3A4357;
-  height: fit-content;
-}
-
-.navbtn{
-  width: 10%;
-  height: 40%;
-  color: red;
+.otherprog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #CBCED3;
+  height: auto;
+  width: 100%;
+  padding: 100;
+  text-align: center;
   
-
 }
+
+.otherprogDiv{
+  width:50%;
+  display: flex;
+  gap: 20px;
+  height: auto/*fit-content*/;
+  align-items: center;
+  flex-direction: column;
+  
+ 
+}
+
+.otherprog h2{
+  font-size: 36px;
+  color:#3f3d47; 
+  border: 1px solid red;
+  
+}
+
+
+
+
 
 
 

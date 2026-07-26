@@ -41,7 +41,7 @@ a {
   }
 }
 .NavButton{
-  width: auto;
+  width: fit-content;
   padding: 20px 55px;
   height:max-content ;
   background-color: #e13816;

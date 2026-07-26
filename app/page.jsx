@@ -12,17 +12,21 @@ export default function Home() {
         <img className={styles.header_banner} src="/img/img2.webp" alt="Banners" />
         <div className={styles.bannerTxt}>
           <h1> Welcome to Resurrection centre LP33- DE sleek</h1>
-          <div className="NavButton">More details.</div>
+          <div className="NavButton">More details</div>
           </div>
           
-      </header>     
-        <div className={styles.cultivation.mps}>
-        Cultivating Mental, Physical and Spiritual Growth         
-          <div className="navbtn">
-            Other programs
+      </header>  
+         
+        <section className={styles.otherprog}>
+          <div className={styles.otherprogDiv}>
+            <h2>Cultivating  mental, physical and spiritual growth</h2>
+            <div className="NavButton">OTHER PROGRAMS</div> 
           </div>
-        </div>
+         
+        </section>
         
+       
+  
         
       
       {/* flex box lesson on 21st june . */}
