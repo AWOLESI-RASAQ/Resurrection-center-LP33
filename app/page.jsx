@@ -20,6 +20,21 @@ export default function Home() {
         <section className={styles.otherprog}>
           <div className={styles.otherprogDiv}>
             <h2>Cultivating  mental, physical and spiritual growth</h2>
+
+            <div className={styles.otherprogcont}>
+              <div className={styles.otherprogcard}>
+                <img src="/img/3fr.jpg" alt="banner" />
+                <div className={styles.overlay}></div>
+                <p>Fellowship</p>
+
+
+
+              </div>
+            </div>
+            
+
+
+          
             <div className="NavButton">OTHER PROGRAMS</div> 
           </div>
          
