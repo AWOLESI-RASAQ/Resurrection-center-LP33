@@ -8,7 +8,9 @@ export default function Home() {
     <div className={styles.page}>
       <header className={styles.header}>
         <div className={styles.overlay}></div>
-        <div className={styles.Nabar}><Nabar /></div>
+        <div className={styles.Nabar}>
+          
+        </div>
         <img className={styles.header_banner} src="/img/img2.webp" alt="Banners" />
         <div className={styles.bannerTxt}>
           <h1> Welcome to Resurrection centre LP33- DE sleek</h1>
@@ -23,18 +25,23 @@ export default function Home() {
 
             <div className={styles.otherprogcont}>
               <div className={styles.otherprogcard}>
-                <img src="/img/3fr.jpg" alt="banner" />
-                <div className={styles.overlay}></div>
+                <img src="/img/1fr.jpg" alt="banner" />
+                <div className={styles.imgoverlay}></div>
                 <p>Fellowship</p>
+              </div>
 
+              <div className={styles.otherprogcard}>
+                <img src="/img/2fr.jpg" alt="banner" />
+                <div className={styles.imgoverlay}></div>
+                <p>W2media</p>
+              </div>
 
-
+              <div className={styles.otherprogcard}>
+                <img src="/img/3fr.jpg" alt="banner" />
+                <div className={styles.imgoverlay}></div>
+                <p>Snapshot</p>
               </div>
             </div>
-            
-
-
-          
             <div className="NavButton">OTHER PROGRAMS</div> 
           </div>
          
