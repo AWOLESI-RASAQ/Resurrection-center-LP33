@@ -5,12 +5,14 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={styles.page}><Nabar/>
       <header className={styles.header}>
         <div className={styles.overlay}></div>
         <div className={styles.Nabar}>
-          
+
         </div>
+        
+
         <img className={styles.header_banner} src="/img/img2.webp" alt="Banners" />
         <div className={styles.bannerTxt}>
           <h1> Welcome to Resurrection centre LP33- DE sleek</h1>

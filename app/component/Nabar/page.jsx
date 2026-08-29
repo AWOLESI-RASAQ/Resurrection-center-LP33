@@ -7,7 +7,12 @@ const Nabar = () => {
                 <div className={styles.Navcontainer1}>
                     <img className={styles.Navlogo} src="/img/logo1.png" alt="logo" />
                     <div className={styles.Navlink}>
-                         
+                        <li>Home</li>
+                        <li>Departement</li>
+                        <li>Welcome center</li>
+                        <li>E-libary</li>
+                        <li>feedback</li>
+                        <li>Events</li>
                     </div>
                 </div>
                 <div className={styles.Navcontainer2}>
