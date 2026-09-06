@@ -44,13 +44,19 @@
   width: 100%;
   position: absolute;
   top: 3%;
+  visibility:visible;
+  overlay: rgb(74, 69, 69); 
   
+   
 }
 
 .header_banner{/*is for the background of the website..*/
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  top: auto;
+  
+
 }
 .bannerTxt{/*is For the text in the background: Welcome to Resurrection centre lp33- DE slink*/
   position: absolute;
@@ -88,6 +94,7 @@
 .img1{
   display: flex;
   background-color: #000676;
+  align-items: center;
 }
 .otherprogDiv{
   width:50%;
@@ -115,15 +122,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  align-self: auto;
 
 }
 
 .otherprogcard{
-  width: 100%;
-  height: 283px;
+  width: 280px;;
+  height: 285px;
   /*border: 1px solid blue;*/
   overflow: hidden;
   position: relative;
+  
+  
 }
 .imgoverlay{
   width: 100%;
@@ -145,6 +155,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  align-items: center;
+
 
 }
 
@@ -159,6 +171,16 @@
   font-weight: 600;
 
 }
+
+
+
+
+/*    width: 100%;
+    background-color:transparent;
+    height: fit-content;
+    /*display: flex;
+    align-items: center;
+    flex:none;*/
 
 
 

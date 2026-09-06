@@ -1,9 +1,21 @@
 .Nabar{
-    width: 100%;
-    background-color: transparent;
-    height: fit-content;
-    display: flex;
-    align-items: center;
+    
+        position: absolute;
+        top: 0;
+        right:20px;
+        width: 100%;
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        padding: 10px 5%;
+      
+        z-index: 10;
+        
+        
+
+      
     
     
 }
@@ -19,6 +31,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
+    
+    
 }
 .Navcontainer1{
     width: 70%;
@@ -29,8 +44,10 @@
     /*border: 1px solid red;*/
 }
 .Navlogo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 70px;
+    position: relative;
+    left: -55px;
 }
     
 
@@ -43,6 +60,7 @@
     display: flex;
     justify-content: space-between;
     /*background:#a7a3a3;*/
+    
 
 
 }
@@ -56,4 +74,5 @@
     align-items: center;
     gap: 42px;
 }
+
 
