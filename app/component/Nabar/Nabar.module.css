@@ -1,15 +1,16 @@
 .Nabar{
     
         position: absolute;
-        top: 0;
-        right:20px;
+        top: 24px;
+
+        /*right:20px;*/
         width: 100%;
       
         display: flex;
         align-items: center;
-        justify-content: space-around;
         
-        padding: 10px 5%;
+        
+        padding: 10px 4%;
       
         z-index: 10;
         
@@ -26,8 +27,7 @@
     padding-right: 20px;
     padding-left: 40px;*/
 .Maincontainer{
-    width: 91%;
-    margin: auto auto;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,26 +39,28 @@
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 78px;
+    
+    gap: 50px;
     /*border: 1px solid red;*/
 }
 .Navlogo {
-    width: 80px;
+    width: fit-content;
     height: 70px;
     position: relative;
-    left: -55px;
+    
 }
     
 
 .Navlink{
-    font-size: 18px;
-    width: 80%;
+    font-size: 17px;
+    font-weight: 500;
+    width: auto;
     height: auto;
     /*margin: auto auto;*/
     /*border: 1px solid#cfcfcf;*/
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
+
     /*background:#a7a3a3;*/
     
 
