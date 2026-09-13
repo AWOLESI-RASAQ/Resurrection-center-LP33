@@ -55,17 +55,28 @@ export default function Home() {
           </div>
          
         </section>
-        
-       
-  
-        
-      
-      {/* flex box lesson on 21st june . */}
-      <section className={styles.flexboxlesson}>
-        <div className={styles.flexbox}>
+        {/*the Loving God div */} 
+        <section className={styles.lefttext}>
+          <div className={styles.lrtext}>
+            <div className={styles.text}>
+              <div className={styles.left}>
+                <div className={styles.h1div}>
+                  <ul>
+                  <h1>our values</h1>
+                  </ul>
+                </div>
+                <div className={styles.h2div}>
+                  <ul>
+                  <h2>Loving God, Loving Others, Loving Life</h2>
+                  </ul>
+                </div> 
+              </div> 
+              <div className={styles.Right}></div>          
+            </div>
 
-        </div>
-      </section>
+          </div>
+        </section>
+      
 
     </div>
   );
