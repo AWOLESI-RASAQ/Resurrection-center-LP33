@@ -56,26 +56,32 @@ export default function Home() {
          
         </section>
         {/*the Loving God div */} 
-        <section className={styles.lefttext}>
+       {/*<section className={styles.lefttext}>
           <div className={styles.lrtext}>
             <div className={styles.text}>
               <div className={styles.left}>
                 <div className={styles.h1div}>
-                  <ul>
                   <h1>our values</h1>
-                  </ul>
                 </div>
                 <div className={styles.h2div}>
-                  <ul>
                   <h2>Loving God, Loving Others, Loving Life</h2>
-                  </ul>
                 </div> 
               </div> 
               <div className={styles.Right}></div>          
             </div>
 
           </div>
+        </section>*/}
+        <section className={styles.lovingothers}>
+          <div className={styles.Ltext}>
+            <h1>Our values</h1>
+            <h2>Loving God, Loving Others, Loving Life</h2>
+          </div>
+          {/*<div className="Rtext"></div>*/}
+
+          
         </section>
+        
       
 
     </div>

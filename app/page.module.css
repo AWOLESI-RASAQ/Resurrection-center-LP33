@@ -84,8 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(143, 141, 141);
-  height: auto;
+  background: rgb(242, 246, 249);
+  height: 90%;
   width: 100%;
   padding: 100;
   text-align: center;
@@ -108,14 +108,14 @@
 }
 
 .otherprog h2{
-  font-size: 36px;
+  font-size: 45px;
   color:#3f3d47; 
   /*border: 1px solid red;*/
   
 }
 
 .otherprogcont{
-  width: 100%;
+  width: 150%;
   height: auto;
   margin: 0 auto;
   /*border: 1px solid #000;*/
@@ -123,15 +123,18 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   align-self: auto;
-
+  justify-content: center;
+  
+  
 }
 
 .otherprogcard{
-  width: 280px;;
+  width: 300px;;
   height: 285px;
   /*border: 1px solid blue;*/
   overflow: hidden;
   position: relative;
+  
   
   
 }
@@ -182,10 +185,13 @@
     align-items: center;
     flex:none;*/
 
-.lefttext{
-  width: 100%;
+/*1.lefttext{
+  width: 700%;
   height: 800px;
   background: rgb(90, 89, 89);
+  display: grid;
+  grid-column: auto;
+
 }
 
 
@@ -194,6 +200,7 @@
   background: red;
   width: 14%;
   height: 55%;
+  
 }
 
 .left{
@@ -202,20 +209,21 @@
   display: flex;
   background: rgb(232, 219, 219);
   padding: 1px 9%;
-
-
-  
+  flex-direction: column; 
 }
 
 .h1div{
   font-size: 10px;
-  text-align: center;
   font-weight:10 ;
-  color: #ebebeb;
-  
-
-  
+  color: #ebebeb;  
 }
+  */
+
+.Lovingothers{
+  display: flex;
+}
+
+
 
 
 
