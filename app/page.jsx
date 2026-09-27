@@ -74,12 +74,41 @@ export default function Home() {
         </section>*/}
         <section className={styles.lovingothers}>
           <div className={styles.Ltext}>
-            <h1>Our values</h1>
-            <h2>Loving God, Loving Others, Loving Life</h2>
+            <h1>OUR VALUES</h1>
+            <h2>
+              Loving God, Loving            
+            </h2>
+            <h3>Others, Loving Life </h3>
           </div>
-          {/*<div className="Rtext"></div>*/}
+
+          <div className={styles.Rtext}>
+              <h1>Our Vision</h1>
+              <p>
+                The vision of the Covenant Nation is to teach Christians who they are
+                in Christ Jesus, and how to live a victorious life in their covenant rights and
+                privileges.
+              </p>
+              <h2>Our Mission</h2>
+              <p>
+                The fulfillment of our mission takes place when those believers become 
+                rooted and grounded enough in God’s word to reach out and teach 
+                others these same principles.
+              </p>
+            </div>
+
 
           
+          
+        {/*<div className={styles.Ltext}>
+            <div  className={styles.ourvalues}>
+              <h1>Our values</h1>
+            </div>
+            <div className={styles.loving}>
+              <h2>Loving God, Loving Others, Loving Life</h2>
+            </div>
+            
+          </div>*/}
+          {/*<div className="Rtext"></div>*/}
         </section>
         
       
